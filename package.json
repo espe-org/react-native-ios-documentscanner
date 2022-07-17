@@ -12,14 +12,18 @@
   "description": "iOS document scanner for React Native (using VisionKit)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hppppong/react-native-ios-documentscanner.git"
+    "url": "https://github.com/hppppong/react-native-ios-documentscanner.git",
+    "baseUrl": "https://github.com/hppppong/react-native-ios-documentscanner"
   },
+  "files": [
+    "README.md",
+    "android",
+    "index.ts",
+    "ios",
+    "react-native-ios-documentscanner.podspec"
+  ],
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "react": "17.0.1",
